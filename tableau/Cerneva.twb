@@ -1,0 +1,628 @@
+<?xml version='1.0' encoding='utf-8'?>
+<workbook original-version="18.1" source-build="2024.1.0" source-platform="win" version="18.1">
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelExtractV2 />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name="ui.encoding.shelf.height" value="24" />
+  </preferences>
+  <datasources>
+    <datasource caption="Cerneva Deal Detail" inline="true" name="federated.cerneva" version="18.1">
+      <connection class="federated">
+        <named-connections>
+          <named-connection caption="cerneva_deal_detail" name="textscan.cerneva">
+            <connection class="textscan" directory="Data" filename="cerneva_deal_detail.csv" password="" server="" />
+          </named-connection>
+        </named-connections>
+        <relation connection="textscan.cerneva" name="cerneva_deal_detail.csv" table="[cerneva_deal_detail.csv]" type="table">
+          <columns gridOrigin="A1" header="yes">
+            <column datatype="string" name="opportunity_id" ordinal="0" />
+            <column datatype="string" name="deal_stage" ordinal="1" />
+            <column datatype="date" name="engage_date" ordinal="2" />
+            <column datatype="date" name="close_date" ordinal="3" />
+            <column datatype="string" name="close_month" ordinal="4" />
+            <column datatype="string" name="sales_agent" ordinal="5" />
+            <column datatype="string" name="manager" ordinal="6" />
+            <column datatype="string" name="regional_office" ordinal="7" />
+            <column datatype="string" name="product" ordinal="8" />
+            <column datatype="string" name="series" ordinal="9" />
+            <column datatype="real" name="sales_price" ordinal="10" />
+            <column datatype="string" name="account" ordinal="11" />
+            <column datatype="string" name="sector" ordinal="12" />
+            <column datatype="string" name="office_location" ordinal="13" />
+            <column datatype="real" name="account_revenue_m" ordinal="14" />
+            <column datatype="integer" name="employees" ordinal="15" />
+            <column datatype="boolean" name="is_closed" ordinal="16" />
+            <column datatype="integer" name="is_won" ordinal="17" />
+            <column datatype="real" name="close_value" ordinal="18" />
+            <column datatype="integer" name="sales_cycle_days" ordinal="19" />
+            <column datatype="real" name="discount_pct" ordinal="20" />
+            <column datatype="integer" name="account_known" ordinal="21" />
+            <column datatype="integer" name="account_enriched" ordinal="22" />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class="column">
+            <remote-name>opportunity_id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[opportunity_id]</local-name>
+            <parent-name>[cerneva_deal_detail.csv]</parent-name>
+            <remote-alias>opportunity_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>deal_stage</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[deal_stage]</local-name>
+            <parent-name>[cerneva_deal_detail.csv]</parent-name>
+            <remote-alias>deal_stage</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>engage_date</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[engage_date]</local-name>
+            <parent-name>[cerneva_deal_detail.csv]</parent-name>
+            <remote-alias>engage_date</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>close_date</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[close_date]</local-name>
+            <parent-name>[cerneva_deal_detail.csv]</parent-name>
+            <remote-alias>close_date</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>close_month</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[close_month]</local-name>
+            <parent-name>[cerneva_deal_detail.csv]</parent-name>
+            <remote-alias>close_month</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>sales_agent</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[sales_agent]</local-name>
+            <parent-name>[cerneva_deal_detail.csv]</parent-name>
+            <remote-alias>sales_agent</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>manager</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[manager]</local-name>
+            <parent-name>[cerneva_deal_detail.csv]</parent-name>
+            <remote-alias>manager</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>regional_office</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[regional_office]</local-name>
+            <parent-name>[cerneva_deal_detail.csv]</parent-name>
+            <remote-alias>regional_office</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>product</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[product]</local-name>
+            <parent-name>[cerneva_deal_detail.csv]</parent-name>
+            <remote-alias>product</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>series</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[series]</local-name>
+            <parent-name>[cerneva_deal_detail.csv]</parent-name>
+            <remote-alias>series</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>sales_price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[sales_price]</local-name>
+            <parent-name>[cerneva_deal_detail.csv]</parent-name>
+            <remote-alias>sales_price</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>account</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[account]</local-name>
+            <parent-name>[cerneva_deal_detail.csv]</parent-name>
+            <remote-alias>account</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>sector</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[sector]</local-name>
+            <parent-name>[cerneva_deal_detail.csv]</parent-name>
+            <remote-alias>sector</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>office_location</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[office_location]</local-name>
+            <parent-name>[cerneva_deal_detail.csv]</parent-name>
+            <remote-alias>office_location</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>account_revenue_m</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[account_revenue_m]</local-name>
+            <parent-name>[cerneva_deal_detail.csv]</parent-name>
+            <remote-alias>account_revenue_m</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>employees</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[employees]</local-name>
+            <parent-name>[cerneva_deal_detail.csv]</parent-name>
+            <remote-alias>employees</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>is_closed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[is_closed]</local-name>
+            <parent-name>[cerneva_deal_detail.csv]</parent-name>
+            <remote-alias>is_closed</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>is_won</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[is_won]</local-name>
+            <parent-name>[cerneva_deal_detail.csv]</parent-name>
+            <remote-alias>is_won</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>close_value</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[close_value]</local-name>
+            <parent-name>[cerneva_deal_detail.csv]</parent-name>
+            <remote-alias>close_value</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>sales_cycle_days</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[sales_cycle_days]</local-name>
+            <parent-name>[cerneva_deal_detail.csv]</parent-name>
+            <remote-alias>sales_cycle_days</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>discount_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[discount_pct]</local-name>
+            <parent-name>[cerneva_deal_detail.csv]</parent-name>
+            <remote-alias>discount_pct</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>account_known</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[account_known]</local-name>
+            <parent-name>[cerneva_deal_detail.csv]</parent-name>
+            <remote-alias>account_known</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>account_enriched</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[account_enriched]</local-name>
+            <parent-name>[cerneva_deal_detail.csv]</parent-name>
+            <remote-alias>account_enriched</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column caption="Opportunity Id" datatype="string" name="[opportunity_id]" role="dimension" type="nominal" />
+      <column caption="Deal Stage" datatype="string" name="[deal_stage]" role="dimension" type="nominal" />
+      <column caption="Engage Date" datatype="date" name="[engage_date]" role="dimension" type="ordinal" />
+      <column caption="Close Date" datatype="date" name="[close_date]" role="dimension" type="ordinal" />
+      <column caption="Close Month" datatype="string" name="[close_month]" role="dimension" type="ordinal" />
+      <column caption="Sales Agent" datatype="string" name="[sales_agent]" role="dimension" type="nominal" />
+      <column caption="Manager" datatype="string" name="[manager]" role="dimension" type="nominal" />
+      <column caption="Regional Office" datatype="string" name="[regional_office]" role="dimension" type="nominal" />
+      <column caption="Product" datatype="string" name="[product]" role="dimension" type="nominal" />
+      <column caption="Series" datatype="string" name="[series]" role="dimension" type="nominal" />
+      <column caption="Sales Price" datatype="real" name="[sales_price]" role="measure" type="quantitative" />
+      <column caption="Account" datatype="string" name="[account]" role="dimension" type="nominal" />
+      <column caption="Sector" datatype="string" name="[sector]" role="dimension" type="nominal" />
+      <column caption="Office Location" datatype="string" name="[office_location]" role="dimension" type="nominal" />
+      <column caption="Account Revenue M" datatype="real" name="[account_revenue_m]" role="measure" type="quantitative" />
+      <column caption="Employees" datatype="integer" name="[employees]" role="measure" type="quantitative" />
+      <column caption="Is Closed" datatype="boolean" name="[is_closed]" role="dimension" type="nominal" />
+      <column caption="Is Won" datatype="integer" name="[is_won]" role="measure" type="quantitative" />
+      <column caption="Close Value" datatype="real" name="[close_value]" role="measure" type="quantitative" />
+      <column caption="Sales Cycle Days" datatype="integer" name="[sales_cycle_days]" role="measure" type="quantitative" />
+      <column caption="Discount Pct" datatype="real" name="[discount_pct]" role="measure" type="quantitative" />
+      <column caption="Account Known" datatype="integer" name="[account_known]" role="measure" type="quantitative" />
+      <column caption="Account Enriched" datatype="integer" name="[account_enriched]" role="measure" type="quantitative" />
+      <column caption="Won Revenue" datatype="real" name="[Calculation_Won_Revenue]" role="measure" type="quantitative">
+        <calculation class="tableau" formula="IF [deal_stage] = &quot;Won&quot; THEN [close_value] END" />
+      </column>
+      <column caption="Closed Deal" datatype="integer" name="[Calculation_Closed_Deal]" role="measure" type="quantitative">
+        <calculation class="tableau" formula="IF [deal_stage] = &quot;Won&quot; OR [deal_stage] = &quot;Lost&quot; THEN 1 ELSE 0 END" />
+      </column>
+      <column caption="Win Rate" datatype="real" name="[Calculation_Win_Rate]" role="measure" type="quantitative">
+        <calculation class="tableau" formula="SUM([is_won]) / SUM([Calculation_Closed_Deal])" />
+      </column>
+      <column caption="Open List Value" datatype="real" name="[Calculation_Open_Value]" role="measure" type="quantitative">
+        <calculation class="tableau" formula="IF [deal_stage] = &quot;Prospecting&quot; OR [deal_stage] = &quot;Engaging&quot; THEN [sales_price] END" />
+      </column>
+      <layout dim-ordering="alphabetic" measure-ordering="alphabetic">
+        <semantic-values />
+      </layout>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name="KPI — Won Revenue">
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Cerneva Deal Detail" name="federated.cerneva" />
+          </datasources>
+          <datasource-dependencies datasource="federated.cerneva">
+            <column caption="Deal Stage" datatype="string" name="[deal_stage]" role="dimension" type="nominal" />
+            <column caption="Close Value" datatype="real" name="[close_value]" role="measure" type="quantitative" />
+            <column caption="Won Revenue" datatype="real" name="[Calculation_Won_Revenue]" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF [deal_stage] = &quot;Won&quot; THEN [close_value] END" />
+            </column>
+          </datasource-dependencies>
+          <aggregation value="true" />
+          <customized-tooltip>Cerneva · KPI — Won Revenue · #5B1738</customized-tooltip>
+        </view>
+        <style>
+          <style-rule element="worksheet" />
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Text" />
+            <encodings>
+              <text column="[federated.cerneva].[sum:Calculation_Won_Revenue:qk]" />
+              <color column="[federated.cerneva].[none:deal_stage:nk]" />
+            </encodings>
+            <style />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name="KPI — Win Rate">
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Cerneva Deal Detail" name="federated.cerneva" />
+          </datasources>
+          <datasource-dependencies datasource="federated.cerneva">
+            <column caption="Deal Stage" datatype="string" name="[deal_stage]" role="dimension" type="nominal" />
+            <column caption="Is Won" datatype="integer" name="[is_won]" role="measure" type="quantitative" />
+            <column caption="Closed Deal" datatype="integer" name="[Calculation_Closed_Deal]" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF [deal_stage] = &quot;Won&quot; OR [deal_stage] = &quot;Lost&quot; THEN 1 ELSE 0 END" />
+            </column>
+            <column caption="Win Rate" datatype="real" name="[Calculation_Win_Rate]" role="measure" type="quantitative">
+              <calculation class="tableau" formula="SUM([is_won]) / SUM([Calculation_Closed_Deal])" />
+            </column>
+          </datasource-dependencies>
+          <aggregation value="true" />
+          <customized-tooltip>Cerneva · KPI — Win Rate · #5B1738</customized-tooltip>
+        </view>
+        <style>
+          <style-rule element="worksheet" />
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Text" />
+            <encodings>
+              <text column="[federated.cerneva].[ag:Calculation_Win_Rate:qk]" />
+              <color column="[federated.cerneva].[none:deal_stage:nk]" />
+            </encodings>
+            <style />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name="Won Revenue by Product">
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Cerneva Deal Detail" name="federated.cerneva" />
+          </datasources>
+          <datasource-dependencies datasource="federated.cerneva">
+            <column caption="Deal Stage" datatype="string" name="[deal_stage]" role="dimension" type="nominal" />
+            <column caption="Product" datatype="string" name="[product]" role="dimension" type="nominal" />
+            <column caption="Close Value" datatype="real" name="[close_value]" role="measure" type="quantitative" />
+            <column caption="Won Revenue" datatype="real" name="[Calculation_Won_Revenue]" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF [deal_stage] = &quot;Won&quot; THEN [close_value] END" />
+            </column>
+          </datasource-dependencies>
+          <aggregation value="true" />
+          <customized-tooltip>Cerneva · Won Revenue by Product · #5B1738</customized-tooltip>
+        </view>
+        <style>
+          <style-rule element="worksheet" />
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Bar" />
+            <encodings>
+              <label column="[federated.cerneva].[sum:Calculation_Won_Revenue:qk]" />
+              <color column="[federated.cerneva].[none:deal_stage:nk]" />
+            </encodings>
+            <style />
+          </pane>
+        </panes>
+        <rows>[federated.cerneva].[none:product:nk]</rows>
+        <cols>[federated.cerneva].[sum:Calculation_Won_Revenue:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name="Win Rate by Region">
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Cerneva Deal Detail" name="federated.cerneva" />
+          </datasources>
+          <datasource-dependencies datasource="federated.cerneva">
+            <column caption="Deal Stage" datatype="string" name="[deal_stage]" role="dimension" type="nominal" />
+            <column caption="Regional Office" datatype="string" name="[regional_office]" role="dimension" type="nominal" />
+            <column caption="Is Won" datatype="integer" name="[is_won]" role="measure" type="quantitative" />
+            <column caption="Closed Deal" datatype="integer" name="[Calculation_Closed_Deal]" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF [deal_stage] = &quot;Won&quot; OR [deal_stage] = &quot;Lost&quot; THEN 1 ELSE 0 END" />
+            </column>
+            <column caption="Win Rate" datatype="real" name="[Calculation_Win_Rate]" role="measure" type="quantitative">
+              <calculation class="tableau" formula="SUM([is_won]) / SUM([Calculation_Closed_Deal])" />
+            </column>
+          </datasource-dependencies>
+          <aggregation value="true" />
+          <customized-tooltip>Cerneva · Win Rate by Region · #5B1738</customized-tooltip>
+        </view>
+        <style>
+          <style-rule element="worksheet" />
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Bar" />
+            <encodings>
+              <label column="[federated.cerneva].[ag:Calculation_Win_Rate:qk]" />
+              <color column="[federated.cerneva].[none:deal_stage:nk]" />
+            </encodings>
+            <style />
+          </pane>
+        </panes>
+        <rows>[federated.cerneva].[none:regional_office:nk]</rows>
+        <cols>[federated.cerneva].[ag:Calculation_Win_Rate:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name="Monthly Won Revenue">
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Cerneva Deal Detail" name="federated.cerneva" />
+          </datasources>
+          <datasource-dependencies datasource="federated.cerneva">
+            <column caption="Deal Stage" datatype="string" name="[deal_stage]" role="dimension" type="nominal" />
+            <column caption="Close Month" datatype="string" name="[close_month]" role="dimension" type="ordinal" />
+            <column caption="Close Value" datatype="real" name="[close_value]" role="measure" type="quantitative" />
+            <column caption="Won Revenue" datatype="real" name="[Calculation_Won_Revenue]" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF [deal_stage] = &quot;Won&quot; THEN [close_value] END" />
+            </column>
+          </datasource-dependencies>
+          <aggregation value="true" />
+          <customized-tooltip>Cerneva · Monthly Won Revenue · #5B1738</customized-tooltip>
+        </view>
+        <style>
+          <style-rule element="worksheet" />
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Line" />
+            <encodings>
+              <label column="[federated.cerneva].[sum:Calculation_Won_Revenue:qk]" />
+              <color column="[federated.cerneva].[none:deal_stage:nk]" />
+            </encodings>
+            <style />
+          </pane>
+        </panes>
+        <rows>[federated.cerneva].[sum:Calculation_Won_Revenue:qk]</rows>
+        <cols>[federated.cerneva].[none:close_month:nk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name="Open Value by Stage">
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Cerneva Deal Detail" name="federated.cerneva" />
+          </datasources>
+          <datasource-dependencies datasource="federated.cerneva">
+            <column caption="Deal Stage" datatype="string" name="[deal_stage]" role="dimension" type="nominal" />
+            <column caption="Sales Price" datatype="real" name="[sales_price]" role="measure" type="quantitative" />
+            <column caption="Open List Value" datatype="real" name="[Calculation_Open_Value]" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF [deal_stage] = &quot;Prospecting&quot; OR [deal_stage] = &quot;Engaging&quot; THEN [sales_price] END" />
+            </column>
+          </datasource-dependencies>
+          <aggregation value="true" />
+          <customized-tooltip>Cerneva · Open Value by Stage · #5B1738</customized-tooltip>
+        </view>
+        <style>
+          <style-rule element="worksheet" />
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Bar" />
+            <encodings>
+              <label column="[federated.cerneva].[sum:Calculation_Open_Value:qk]" />
+              <color column="[federated.cerneva].[none:deal_stage:nk]" />
+            </encodings>
+            <style />
+          </pane>
+        </panes>
+        <rows>[federated.cerneva].[none:deal_stage:nk]</rows>
+        <cols>[federated.cerneva].[sum:Calculation_Open_Value:qk]</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder="true" name="Commercial Command">
+      <layout-options />
+      <zones>
+        <zone h="8000" id="1" type-v2="title" w="100000" x="0" y="0" />
+        <zone h="18000" id="2" name="KPI — Won Revenue" type-v2="worksheet" w="50000" x="0" y="8000">
+          <zone-style>
+            <format attr="border-color" value="#DED5D9" />
+            <format attr="background-color" value="#F5F0E7" />
+            <format attr="padding" value="8" />
+          </zone-style>
+        </zone>
+        <zone h="18000" id="3" name="KPI — Win Rate" type-v2="worksheet" w="50000" x="50000" y="8000">
+          <zone-style>
+            <format attr="border-color" value="#DED5D9" />
+            <format attr="background-color" value="#F5F0E7" />
+            <format attr="padding" value="8" />
+          </zone-style>
+        </zone>
+        <zone h="41000" id="4" name="Won Revenue by Product" type-v2="worksheet" w="60000" x="0" y="26000">
+          <zone-style>
+            <format attr="border-color" value="#DED5D9" />
+            <format attr="background-color" value="#F5F0E7" />
+            <format attr="padding" value="8" />
+          </zone-style>
+        </zone>
+        <zone h="41000" id="5" name="Win Rate by Region" type-v2="worksheet" w="40000" x="60000" y="26000">
+          <zone-style>
+            <format attr="border-color" value="#DED5D9" />
+            <format attr="background-color" value="#F5F0E7" />
+            <format attr="padding" value="8" />
+          </zone-style>
+        </zone>
+        <zone h="33000" id="6" name="Monthly Won Revenue" type-v2="worksheet" w="60000" x="0" y="67000">
+          <zone-style>
+            <format attr="border-color" value="#DED5D9" />
+            <format attr="background-color" value="#F5F0E7" />
+            <format attr="padding" value="8" />
+          </zone-style>
+        </zone>
+        <zone h="33000" id="7" name="Open Value by Stage" type-v2="worksheet" w="40000" x="60000" y="67000">
+          <zone-style>
+            <format attr="border-color" value="#DED5D9" />
+            <format attr="background-color" value="#F5F0E7" />
+            <format attr="padding" value="8" />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor="1">
+    <window class="dashboard" name="Commercial Command">
+      <cards />
+      <simple-id uuid="{CA71E7A0-2026-4C0B-9A6A-000000000001}" />
+    </window>
+  </windows>
+  <thumbnails />
+</workbook>

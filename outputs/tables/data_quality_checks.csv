@@ -1,0 +1,8 @@
+"check","failures","status","rule"
+"Opportunity IDs are unique",0,"PASS","COUNT(DISTINCT opportunity_id) = row count"
+"Deal stages are recognised",0,"PASS","stage in Prospecting, Engaging, Won, Lost"
+"Close dates follow engagement dates",0,"PASS","close_date >= engage_date"
+"Won deals have positive close value",0,"PASS","Won implies close_value > 0"
+"Closed deals have close dates",0,"PASS","Won/Lost implies a close date"
+"Product joins are complete",0,"PASS","Every product resolves after name standardisation"
+"Sales-team joins are complete",0,"PASS","Every sales agent resolves to a manager and region"

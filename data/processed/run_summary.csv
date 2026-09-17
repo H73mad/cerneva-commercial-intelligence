@@ -1,0 +1,12 @@
+"metric","value"
+"source_rows",8800
+"closed_deals",6711
+"won_deals",4238
+"won_revenue",10005534
+"win_rate",0.631500521531813
+"median_cycle_days",45
+"open_opportunities",2089
+"holdout_auc",0.485810488516092
+"model_brier",0.241926618111408
+"baseline_brier",0.24147349180203
+"model_operationalised",0

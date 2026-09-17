@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 150" role="img" aria-labelledby="title desc">
+  <title id="title">Cerneva Commercial Intelligence</title>
+  <desc id="desc">Cerneva wordmark beside its open circular signal mark.</desc>
+  <rect width="640" height="150" rx="18" fill="#F5F0E7"/>
+  <g transform="translate(24 22) scale(.83)">
+    <rect width="128" height="128" rx="26" fill="#5B1738"/>
+    <path d="M88 35a39 39 0 1 0 2 55" fill="none" stroke="#F5F0E7" stroke-width="12" stroke-linecap="round"/>
+    <path d="M40 78l18-18 13 12 22-25" fill="none" stroke="#C49A5A" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M80 47h13v13" fill="none" stroke="#C49A5A" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="154" y="77" fill="#211B1F" font-family="Arial, Helvetica, sans-serif" font-size="55" font-weight="700" letter-spacing="6">CERNEVA</text>
+  <text x="158" y="108" fill="#5B1738" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="4">COMMERCIAL INTELLIGENCE</text>
+</svg>
+
