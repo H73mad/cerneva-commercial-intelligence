@@ -203,3 +203,18 @@ tbody tr:hover { background: #fdf9f5; }
   .toolbar { width:100%; }
   .search { min-width:0; flex:1; }
 }
+
+/* Give the executive readout enough type and room to survive a real browser viewport. */
+.metric-foot { line-height: 1.35; }
+.panel-head h2 { font-size: 16px; }
+.panel-head p { font-size: 11px; }
+.chart-foot { font-size: 11px; }
+.lower-grid table { table-layout: fixed; }
+.lower-grid th:nth-child(1), .lower-grid td:nth-child(1) { width: 31%; }
+.lower-grid th:nth-child(2), .lower-grid td:nth-child(2) { width: 23%; }
+.lower-grid th:nth-child(3), .lower-grid td:nth-child(3) { width: 14%; }
+.lower-grid th:nth-child(4), .lower-grid td:nth-child(4) { width: 13%; }
+.lower-grid th:nth-child(5), .lower-grid td:nth-child(5) { width: 19%; }
+.lower-grid td:last-child { white-space: normal; line-height: 1.35; overflow-wrap: anywhere; }
+.decision-item strong { font-size: 12px; }
+.decision-item p { font-size: 10.5px; }
