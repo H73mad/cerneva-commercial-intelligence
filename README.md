@@ -2,11 +2,21 @@
   <img src="assets/cerneva-lockup.svg" width="620" alt="Cerneva Commercial Intelligence">
 </p>
 
-<p align="center"><strong>See the deal behind the pipeline.</strong></p>
+<p align="center"><strong>Know what the number can carry.</strong></p>
 
-Cerneva is a decision-first commercial intelligence project built from a fictional B2B CRM. It uses R, SQL, statistics and Tableau-ready outputs to answer a practical question: **where should sales leadership intervene, and how much confidence should it place in the current forecast?**
+Cerneva is a decision-first revenue operating room for a fictional B2B technology company. It uses R, SQL, statistics and Tableau-ready outputs to answer the question a CRO actually has to answer on Monday morning: **which parts of the number are defensible, which deals need a human conversation, and what evidence is missing before prediction is safe?**
 
-![Cerneva executive preview](outputs/figures/cerneva_executive_preview.png)
+![Cerneva Revenue Room](assets/cerneva-room-preview.svg)
+
+## The revenue-council moment
+
+Ellery Systems has a healthy-looking historical win rate and a busy open pipeline. The problem is that the CRM records outcomes better than it records buyer movement. Cerneva therefore refuses to manufacture a forecast. It turns the evidence gap into a controlled operating plan:
+
+```text
+Open book → evidence coverage → manager queue → model challenge → next data requirement
+```
+
+The product layer in [`web/`](web/README.md) makes that storyline tangible as a warm, editorial Revenue Room for a CRO or RevOps lead. The analysis, Tableau workbook and SQL model remain the source of truth beneath it.
 
 ## The decision, not just the dashboard
 
@@ -20,6 +30,8 @@ Cerneva is a decision-first commercial intelligence project built from a fiction
 | Model Brier score vs baseline | **0.242 vs 0.241** | The model is rejected rather than presented as false certainty |
 
 The most important finding is negative: owner, product, region and basic account attributes do not predict outcomes better than the historical win rate. Cerneva therefore recommends collecting stage history, sales activities, stakeholder coverage and buyer-intent signals before a forecast model is operationalised.
+
+That is the deliberate product choice: when the evidence is weak, narrow the question and improve the record rather than presenting a confident-looking probability.
 
 ## What this project demonstrates
 
@@ -56,6 +68,7 @@ flowchart LR
 | `outputs/tables/` | Auditable summaries, diagnostics and model evidence |
 | `docs/executive-brief.md` | One-page recommendation for sales leadership |
 | `docs/methodology.md` | Assumptions, validation design and limitations |
+| `web/` | Product-facing Revenue Room with pipeline, accounts, forecast-lab and controls views |
 
 ## Reproduce the analysis
 
@@ -68,6 +81,14 @@ python tableau/build_workbook.py
 ```
 
 The Tableau builder packages `Cerneva.twb` and the processed deal file into `Cerneva.twbx`. Tableau Desktop or Tableau Public is still required to open and publish the workbook.
+
+To review the product surface locally:
+
+```bash
+python -m http.server 8000
+```
+
+Then open `http://localhost:8000/web/`.
 
 ## Data
 
@@ -83,4 +104,3 @@ The source is the public **CRM Sales Opportunities** practice dataset from [Mave
 ## Interview version
 
 > I built Cerneva to test whether a CRM could support reliable win forecasting. I created a reproducible R pipeline and SQL analytical layer, then evaluated a logistic model on a chronological holdout. It performed worse than the historical-rate baseline, so I did not disguise that result. I converted the project into a governed commercial action system: it ranks incomplete or stalled pipeline records, explains product and territory performance, and specifies the behavioural data needed before predictive scoring would be trustworthy.
-

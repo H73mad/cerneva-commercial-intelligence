@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">Cerneva Revenue Room</title>
+  <desc id="desc">Warm editorial commercial intelligence interface showing an open-book diagnosis, evidence coverage and manager queue.</desc>
+  <rect width="1600" height="980" fill="#fbf8f4"/>
+  <rect width="252" height="980" fill="#f2ebe2"/>
+  <line x1="252" y1="0" x2="252" y2="980" stroke="#e2d8cf"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#292028">
+    <rect x="29" y="31" width="35" height="35" rx="9" fill="#65183d"/>
+    <path d="M50 42a10 10 0 1 0 1 15" fill="none" stroke="#fbf8f4" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M39 56l6-6 4 4 7-8" fill="none" stroke="#e0b969" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="77" y="52" font-family="Georgia, serif" font-size="22" font-weight="700" letter-spacing="3">CERNEVA</text>
+    <text x="78" y="70" font-size="9" font-weight="700" letter-spacing="1.6" fill="#65183d">REVENUE ROOM</text>
+    <text x="29" y="123" font-size="10" font-weight="700" letter-spacing="1.8" fill="#998d86">WORKSPACE</text>
+    <rect x="29" y="139" width="194" height="58" rx="11" fill="#fffdfa" stroke="#dfd3c8"/>
+    <circle cx="48" cy="163" r="5" fill="#1d8271"/>
+    <text x="64" y="160" font-size="12" font-weight="700">Ellery Systems</text>
+    <text x="64" y="177" font-size="10" fill="#766b70">Commercial · Q3</text>
+    <text x="205" y="167" font-size="16" fill="#766b70">⌄</text>
+    <text x="29" y="235" font-size="10" font-weight="700" letter-spacing="1.8" fill="#998d86">OPERATE</text>
+    <rect x="20" y="253" width="212" height="43" rx="10" fill="#65183d"/>
+    <text x="42" y="280" font-size="13" fill="#fff">◒</text><text x="67" y="280" font-size="12" fill="#fff" font-weight="700">Revenue room</text>
+    <text x="42" y="323" font-size="13" fill="#6e6265">↗</text><text x="67" y="323" font-size="12" fill="#564c51">Pipeline desk</text>
+    <text x="42" y="366" font-size="13" fill="#6e6265">◇</text><text x="67" y="366" font-size="12" fill="#564c51">Accounts</text>
+    <text x="29" y="420" font-size="10" font-weight="700" letter-spacing="1.8" fill="#998d86">UNDERSTAND</text>
+    <text x="42" y="463" font-size="13" fill="#6e6265">∿</text><text x="67" y="463" font-size="12" fill="#564c51">Forecast lab</text>
+    <text x="42" y="506" font-size="13" fill="#6e6265">✓</text><text x="67" y="506" font-size="12" fill="#564c51">Controls</text>
+    <line x1="29" y1="850" x2="223" y2="850" stroke="#dfd3c8"/>
+    <circle cx="39" cy="877" r="4" fill="#1d8271"/>
+    <text x="52" y="878" font-size="11" font-weight="700">Snapshot is live</text>
+    <text x="52" y="895" font-size="9" fill="#766b70">Last reconciled 16 Sep 2026</text>
+    <rect x="29" y="920" width="194" height="42" rx="10" fill="#fffdfa" stroke="#dfd3c8"/>
+    <circle cx="50" cy="941" r="13" fill="#65183d"/><text x="42" y="945" font-size="9" fill="#fff" font-weight="700">MK</text>
+    <text x="70" y="939" font-size="10" font-weight="700">Maya Khan</text><text x="70" y="953" font-size="8" fill="#766b70">Chief Revenue Officer</text>
+    <line x1="252" y1="73" x2="1600" y2="73" stroke="#e7ddd5"/>
+    <text x="287" y="43" font-size="11" fill="#766b70">Ellery Systems</text><text x="378" y="43" font-size="11" fill="#b4a9a3">/</text><text x="393" y="43" font-size="11" font-weight="700">Revenue room</text>
+    <text x="1230" y="43" font-size="10" fill="#766b70">● Data fresh · 14 min ago</text><text x="1400" y="46" font-size="20" fill="#766b70">⌕</text><circle cx="1516" cy="41" r="16" fill="#65183d"/><text x="1508" y="45" font-size="9" fill="#fff" font-weight="700">MK</text>
+    <text x="287" y="115" font-size="10" font-weight="700" letter-spacing="1.7" fill="#8d315d">COMMERCIAL INTELLIGENCE · 16 SEPTEMBER 2026</text>
+    <text x="287" y="160" font-family="Georgia, serif" font-size="45" fill="#292028">The forecast is bigger than the evidence.</text>
+    <text x="287" y="189" font-size="13" fill="#766b70">Ellery has a $3.36m open book, but only 664 opportunities contain enough context</text>
+    <text x="287" y="210" font-size="13" fill="#766b70">for a confident next move. Cerneva turns that gap into a reviewable commercial plan.</text>
+    <rect x="1374" y="115" width="173" height="37" rx="9" fill="#fff" stroke="#e7ddd5"/><text x="1390" y="138" font-size="10" fill="#766b70">◷ Q3 snapshot  ⌄</text>
+    <g transform="translate(287 245)">
+      <rect width="293" height="100" rx="13" fill="#fff" stroke="#e7ddd5"/><text x="18" y="27" font-size="10" fill="#766b70" font-weight="700">OPEN BOOK</text><text x="18" y="68" font-family="Georgia, serif" font-size="29">$3.36m</text><text x="18" y="88" font-size="10" fill="#766b70">2,089 active opportunities</text>
+      <rect x="307" width="293" height="100" rx="13" fill="#fff" stroke="#e7ddd5"/><text x="325" y="27" font-size="10" fill="#766b70" font-weight="700">WON REVENUE</text><text x="325" y="68" font-family="Georgia, serif" font-size="29">$10.01m</text><text x="325" y="88" font-size="10" fill="#1d8271">● 63.2% closed-deal win rate</text>
+      <rect x="614" width="293" height="100" rx="13" fill="#fff" stroke="#e7ddd5"/><text x="632" y="27" font-size="10" fill="#766b70" font-weight="700">RECORDS READY TO ACT</text><text x="632" y="68" font-family="Georgia, serif" font-size="29">664</text><text x="632" y="88" font-size="10" fill="#b7883e">● 31.8% of open book</text>
+      <rect x="921" width="293" height="100" rx="13" fill="#fff" stroke="#e7ddd5"/><text x="939" y="27" font-size="10" fill="#766b70" font-weight="700">FORECAST MODEL</text><text x="939" y="68" font-family="Georgia, serif" font-size="26" fill="#b8555b">Rejected</text><text x="939" y="88" font-size="10" fill="#b8555b">● AUC 0.486 · baseline wins</text>
+    </g>
+    <rect x="287" y="370" width="753" height="260" rx="14" fill="#fff" stroke="#e7ddd5"/><text x="309" y="401" font-size="15" font-weight="700">Where the book is sitting</text><text x="309" y="422" font-size="10" fill="#766b70">Opportunity value by stage · list-price proxy from the source CRM</text>
+    <g font-size="11" fill="#766b70"><text x="309" y="463">Prospecting</text><text x="309" y="510">Engaging</text><text x="309" y="557">Won</text><text x="309" y="604">Lost</text></g>
+    <g><rect x="420" y="452" width="245" height="12" rx="6" fill="#f0e9e4"/><rect x="420" y="452" width="80" height="12" rx="6" fill="#65183d"/><text x="1010" y="463" text-anchor="end" font-size="11">$1.07m</text><rect x="420" y="499" width="245" height="12" rx="6" fill="#f0e9e4"/><rect x="420" y="499" width="165" height="12" rx="6" fill="#bb7692"/><text x="1010" y="510" text-anchor="end" font-size="11">$2.29m</text><rect x="420" y="546" width="245" height="12" rx="6" fill="#f0e9e4"/><rect x="420" y="546" width="245" height="12" rx="6" fill="#b7883e"/><text x="1010" y="557" text-anchor="end" font-size="11">$10.01m</text><rect x="420" y="593" width="245" height="12" rx="6" fill="#f0e9e4"/><rect x="420" y="593" width="145" height="12" rx="6" fill="#d8c6b6"/><text x="1010" y="604" text-anchor="end" font-size="11">$5.95m</text></g>
+    <line x1="309" y1="612" x2="1018" y2="612" stroke="#e7ddd5"/><text x="309" y="622" font-size="9" fill="#766b70">2,089 open opportunities</text><text x="1018" y="622" text-anchor="end" font-size="9" fill="#766b70">67.9% average record completeness</text>
+    <rect x="1057" y="370" width="490" height="260" rx="14" fill="#65183d"/><text x="1082" y="402" font-size="10" font-weight="700" letter-spacing="1.5" fill="#e0b969">DECISION MEMO · 09:00 REVENUE COUNCIL</text><text x="1082" y="457" font-family="Georgia, serif" font-size="29" fill="#fff">Do not automate</text><text x="1082" y="490" font-family="Georgia, serif" font-size="29" fill="#fff">the forecast yet.</text><text x="1082" y="535" font-size="12" fill="#eadce1">The CRM knows what was sold, not how</text><text x="1082" y="555" font-size="12" fill="#eadce1">the buyer moved. Tighten evidence first.</text><line x1="1082" y1="581" x2="1522" y2="581" stroke="#a8738e"/><text x="1082" y="606" font-size="9" fill="#e0b969">NEXT MOVE</text><text x="1180" y="606" font-size="9" fill="#e0b969">RECORDS NEEDING CONTEXT</text><text x="1082" y="621" font-family="Georgia, serif" font-size="22" fill="#fff">1,425</text><text x="1180" y="621" font-family="Georgia, serif" font-size="22" fill="#fff">31.8%</text>
+    <rect x="287" y="650" width="753" height="255" rx="14" fill="#fff" stroke="#e7ddd5"/><text x="309" y="681" font-size="15" font-weight="700">Review queue</text><text x="309" y="701" font-size="10" fill="#766b70">Highest-leverage records for this week’s manager reviews</text><text x="309" y="736" font-size="9" font-weight="700" letter-spacing="1.1" fill="#998d86">OWNER</text><text x="532" y="736" font-size="9" font-weight="700" letter-spacing="1.1" fill="#998d86">PRODUCT</text><text x="700" y="736" font-size="9" font-weight="700" letter-spacing="1.1" fill="#998d86">REGION</text><text x="805" y="736" font-size="9" font-weight="700" letter-spacing="1.1" fill="#998d86">EVIDENCE</text><text x="940" y="736" font-size="9" font-weight="700" letter-spacing="1.1" fill="#998d86">MOVE</text>
+    <line x1="309" y1="748" x2="1018" y2="748" stroke="#e7ddd5"/><text x="309" y="774" font-size="11" font-weight="700">Anna Snelling</text><text x="309" y="791" font-size="9" fill="#766b70">0D8Y5JA0</text><text x="532" y="782" font-size="10">GTX Plus Pro</text><text x="700" y="782" font-size="10">Central</text><rect x="805" y="768" width="60" height="21" rx="6" fill="#f7dfdf"/><text x="817" y="782" font-size="9" fill="#9a343e" font-weight="700">40%</text><text x="940" y="782" font-size="10">Complete CRM record</text>
+    <line x1="309" y1="804" x2="1018" y2="804" stroke="#f0e9e4"/><text x="309" y="830" font-size="11" font-weight="700">Moses Frase</text><text x="309" y="847" font-size="9" fill="#766b70">1CD4N8JQ</text><text x="532" y="838" font-size="10">MG Advanced</text><text x="700" y="838" font-size="10">West</text><rect x="805" y="824" width="60" height="21" rx="6" fill="#f8edcf"/><text x="817" y="838" font-size="9" fill="#856022" font-weight="700">68%</text><text x="940" y="838" font-size="10">Review stalled opportunity</text>
+    <rect x="1057" y="650" width="490" height="255" rx="14" fill="#fff" stroke="#e7ddd5"/><text x="1081" y="681" font-size="15" font-weight="700">What changed</text><text x="1081" y="701" font-size="10" fill="#766b70">The useful signal is a pattern, not a single score.</text><circle cx="1095" cy="746" r="14" fill="#f2e3e9"/><text x="1089" y="751" font-size="13" fill="#65183d">↗</text><text x="1120" y="741" font-size="11" font-weight="700">Engaging has the volume</text><text x="1120" y="760" font-size="10" fill="#766b70">1,589 opportunities need a stage-age review.</text><circle cx="1095" cy="809" r="14" fill="#f2e3e9"/><text x="1089" y="814" font-size="13" fill="#65183d">◌</text><text x="1120" y="804" font-size="11" font-weight="700">GTX Pro carries the value</text><text x="1120" y="823" font-size="10" fill="#766b70">$3.51m won revenue with a 37-day cycle.</text><circle cx="1095" cy="872" r="14" fill="#f7dfdf"/><text x="1090" y="877" font-size="13" fill="#b8555b">!</text><text x="1120" y="867" font-size="11" font-weight="700">Data quality is the constraint</text><text x="1120" y="886" font-size="10" fill="#766b70">1,425 open records need context.</text>
+  </g>
+</svg>

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#65183d" />
+    <meta name="description" content="Cerneva Revenue Room — commercial intelligence for decisions with evidence." />
+    <title>Cerneva · Revenue Room</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./app.js"></script>
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="rail" aria-label="Cerneva navigation">
+        <a class="brand" href="#room" data-view="room" aria-label="Cerneva Revenue Room">
+          <img src="../assets/cerneva-mark.svg" alt="" />
+          <span><strong>Cerneva</strong><small>Revenue room</small></span>
+        </a>
+
+        <div class="workspace-switcher">
+          <span class="eyebrow">Workspace</span>
+          <button class="workspace-button" type="button">
+            <span class="workspace-dot"></span>
+            <span><strong>Ellery Systems</strong><small>Commercial · Q3</small></span>
+            <span class="chevron">⌄</span>
+          </button>
+        </div>
+
+        <nav class="nav-list" aria-label="Main menu">
+          <span class="nav-label">Operate</span>
+          <button class="nav-item active" data-view="room"><span class="nav-icon">◒</span>Revenue room</button>
+          <button class="nav-item" data-view="pipeline"><span class="nav-icon">↗</span>Pipeline desk</button>
+          <button class="nav-item" data-view="accounts"><span class="nav-icon">◇</span>Accounts</button>
+          <span class="nav-label">Understand</span>
+          <button class="nav-item" data-view="forecast"><span class="nav-icon">∿</span>Forecast lab</button>
+          <button class="nav-item" data-view="controls"><span class="nav-icon">✓</span>Controls</button>
+        </nav>
+
+        <div class="rail-bottom">
+          <div class="rail-note"><span class="live-dot"></span><span><strong>Snapshot is live</strong><small>Last reconciled 16 Sep 2026</small></span></div>
+          <div class="user-card"><div class="avatar">MK</div><span><strong>Maya Khan</strong><small>Chief Revenue Officer</small></span><span class="more">•••</span></div>
+        </div>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <div class="breadcrumbs"><span>Ellery Systems</span><b>/</b><strong id="crumb">Revenue room</strong></div>
+          <div class="top-actions">
+            <span class="freshness"><span class="fresh-dot"></span>Data fresh · 14 min ago</span>
+            <button class="icon-button" type="button" aria-label="Search">⌕</button>
+            <button class="icon-button" type="button" aria-label="Notifications">♢<sup>3</sup></button>
+            <div class="mini-avatar">MK</div>
+          </div>
+        </header>
+        <section id="app" class="page" aria-live="polite"></section>
+      </main>
+    </div>
+  </body>
+</html>
